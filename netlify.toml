@@ -1,0 +1,7 @@
+[build]
+  base = "frontend"  # The directory containing your frontend app
+  publish = "frontend/build"  # The directory containing your static build files
+  command = "npm run build"  # The build command for your frontend (React, Vue, etc.)
+
+[context.production.environment]
+  NODE_ENV = "production"
